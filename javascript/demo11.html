@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>JavaScript Function </h1>
+
+            <P>Invoke (call) a function that coverts from Fahrenhit to Celcius:</P>
+
+            <p id="demo"></p>
+
+            <script>
+                function toCelsius(f) {
+                    return (5/9) * (f-32);
+                }
+                let value1 = toCelsius(77);
+                let value2 = toCelsius();
+                document.getElementById("demo").innerHTML = value1;
+                document.getElementById("demo").innerHTML = value2;  
+            </script>
+        </h1>
+    </body>
+</html>
